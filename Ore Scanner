@@ -1,0 +1,7 @@
+IF :Sensor == 0 THEN :Scan_Result = "Offline" goto 1 END
+IF :Sensor == 1 THEN :Scan_Result = "\n" goto 3 END
+:Scan = 1 n="\n"
+:Index = 0 :Scan_Result += :Material+" "+:Volume+n
+:Index = 1 :Scan_Result += :Material+" "+:Volume+n
+goto 1
+
