@@ -1,0 +1,1 @@
+:GeneratorUnitRateLimit=:EcoMode+(10000-:StoredBatteryPower)/100 goto1
